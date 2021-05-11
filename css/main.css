@@ -17,7 +17,7 @@ body {
   --opaqueBlueColor: #004a9e;
   --mainStyleColor: #56585c;
   --fontTextColor: #444;
-  --mainBackground: rgba(128, 128, 128, 0.2);
+  --mainBackground: #f0f3f7;
 }
 
 /* nav section */
