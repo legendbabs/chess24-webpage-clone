@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+    <title>chess24 webpage clone</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-xl navBar" id="navBar">
+        <a href="#" class="navbar-brand">
+            <img class="c24-logo" src="./img/c24-logo.png" alt="c24-logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+            <span class="navbar-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Play</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Learn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Read</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Watch</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Deals</a>
+                </li>
+            </ul>
+            <!-- social icons with input -->
+            <div class="nav-icons-container d-flex">
+                <div class="nav-icons">
+                    <div class="nav-icon">
+                        <i class="fas fa-search search-icon d-none d-xl-block"></i>
+                        <form class="icon-form d-none d-xl-block" action="" method="GET">
+                            <input type="text" name="" id="">
+                        </form>
+                    </div>
+                    <div class="nav-icon language-bar">
+                        <i class="fa fa-language language-icon d-none d-xl-block" aria-hidden="true"></i>
+                        <select class="select-language d-none d-xl-block" name="" id="" style="outline: none;">
+                            <option value="">Deutsch</option>
+                            <option value="">English</option>
+                            <option value="">Español</option>
+                            <option value="">Français</option>
+                            <option value="">Italiano</option>
+                            <option value="">Norsk</option>
+                            <option value="">Polski</option>
+                            <option value="">Português</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+    </nav>
+    <div class="profile-container d-none d-xl-block">
+        <div class="profile">
+            <a class="profile__link" href="#">
+                <img class="profile__img"
+                    src="https://assets.chess24.com/assets/daca8a93e26446f1e7d52cedb56a5fe1/images/user/26x26_profile_default.png"
+                    alt="">
+                <span class="profile__account">Log in / Register</span>
+            </a>
+        </div>
+    </div>
+    
+    </div>
+    <!-- end of navbar section -->
+
+    <!-- second section -->
+    <section class="second-section" id="second-section">
+        <div class="topSection">
+            <!-- first -->
+            <div class="topSection__first">
+                <div class="topHeader">
+                    new in chess classic
+                </div>
+                <div class="topDate">
+                    5/1/2021
+                </div>
+            </div>
+
+            <!-- second -->
+            <div class="topSection__second" style="padding-top: 20px;">
+                <!-- <div class="topSection__slider"></div> -->
+                <div class="topSection__sliderDesription">
+                    <p>Magnus Carlsen and Hikaru Nakamura play in the final of the New in Chess Classic while Levon Aronian and ShakhriyarMamedyarov play for 3rd place. Live from 18:30 CEST!</p>
+                </div>
+            </div>
+
+            <!-- third -->
+            <div class="topSection__third" style="padding-top: 20px;">
+                <a href="#" class="topSection__thirdButton">watch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- third section -->
+    <section class="third__section" id="third__section">
+        <div class="third__sectionContainer">
+            <!-- first container -->
+            <div class="thirdSection__first">
+                <div class="thirdSection__header">
+                    play now
+                </div>
+                <div class="thirdSection__boxContainer">
+                    <div class="thirdSection__box">
+                        <div class="box"><a href="#">1</a></div>
+                        <div class="box"><a href="#">3</a></div>
+                        <div class="box"><a href="#">3+2</a></div>
+                        <div class="box"><a href="#">5</a></div>
+                        <div class="box"><a href="#">10</a></div>
+                        <div class="box"><a href="#">15</a></div>
+                    </div>
+                    <a href="#" class="thirdSection__button">create a game</a>
+                </div>
+            </div>
+            <!-- end of first container -->
+
+            <!-- second container -->
+            <div class="thirdSection__Second">
+                <div class="thirdSection__header2">
+                    featured events
+                </div>
+                <div class="thirdSection__inner">
+                    <a href="#" class="thirdSection__innerImage"><img src="https://s3-eu-west-1.amazonaws.com/de.cisha.live/1G0nDGctR3Cy6Oqs2I46-g/original/nicc---255x215.png"></a>
+                    <div class="thirdSection__innerContainer">
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-1">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">live now</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">New In Chess Classic | Knockout Round 7.1</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-1">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">yesterday at 17:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri eventPriafter">78th LOTTO Polish Championship Round 2.3</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-1">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">yesterday at 13:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Banter Blitz with Lefong (182)</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-2">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">today at 21:30</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Russian Team Championship Premier League Round 3</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-2">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">tomorrow at 13:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">De 1000 à 2400 elo après 30 ans! cours #13</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-2">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">tomorrow at 19:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">New In Chess Classic | Knockout Round 7.1</span>
+                            </a>
+                        </div>
+                        <!-- end of start of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-2">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">tomorrow at 19:15</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Lubbes Lernstunde | Ungleichfarbige Läufer II</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-3">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">May 5, 2021 | 20:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Soirée Mouss avec Laurent Fressinet et Jules Moussard</span>
+                            </a>
+                        </div>
+                        <!-- end of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-3">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">May 7, 2021 | 10:30</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Indian Qualifier Round 1.1</span>
+                            </a>
+                        </div>
+                        <!-- end of start of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-3">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">May 22, 2021 | 14:00</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Gibraltar FIDE Women's Grand Prix Round 1</span>
+                            </a>
+                        </div>
+                        <!-- end of start of event list -->
+                        <!-- start of event list -->
+                        <div class="thirdSection__eventsList color-3">
+                            <a href="#" class="thirdSection__eventLink">
+                                <span class="eventSec">
+                                    <span class="eventSec__inner">
+                                        <span class="event__live">3 hours ago</span>
+                                    </span>
+                                </span>
+                                <span class="eventPri">Geschwätzblitz mit Melanie und Nikolas Lubbe</span>
+                            </a>
+                        </div>
+                        <!-- end of start of event list -->
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- end of second container -->
+
+            <!-- third container -->
+            <div class="thirdSection__third">
+                <div class="thirdSection__headerContainer">
+                    <div class="thirdSection__header3">
+                        <span>Video Series &nbsp;</span>
+                    </div>
+                    <div class="thirdSection__headerLink">
+                        <span><a href="#">See all</a></span>
+                    </div>
+                </div>
+                <div class="thirdSection__thirdBox">
+                    <a href="" class="video-series-entries">
+                        <div class="video-item-image">
+                            <img src="https://cdn.chess24.com/lHvToVysS1eETmWqOmUkDg/original/mark-dvoretsky-and-jan.png">
+                        </div>
+                        <div class="video-item-description">
+                            <div class="description-text-pri">
+                                ► Endgames with Dvoretsky
+                            </div>
+                            <div class="description-text-sec">IM Mark Dvoretsky</div>
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+            <!-- end of third container -->
+        </div>
+    </section>
+
+
+    <!-- fourth section -->
+    <section class="fourth-section" id="fourth-section">
+        <div class="fourth__sectionContainer">
+            <div class="fourth__sectionHeader">
+                News & Events
+            </div>
+            <div class="fourth__sectionBox">
+                <div class="fourth__sectionBox1">
+                    <div class="fourthSection__container1">
+                        <div class="fourthSection__header2">
+                            latest updates
+                        </div>
+                        <div class="fourthSection__inner">
+                            <div class="fourthSection__innerImage">
+                                <img
+                                    src="https://s3-eu-west-1.amazonaws.com/de.cisha.live/yvbechmsRSGU-Yx0_eV-ZA/712x452/kahoot-chess24-magnus-carlsen-sm.jpg">
+                            </div>
+                            <div class="item-content">
+                                <div class="content-title">
+                                    Adhiban-Pragg in Indian Qualifier quarterfinals
+                                </div>
+                                <div class="content-body">
+                                    <p>Nihal Sarin, Sethuraman, Abhijeet Gupta and Krishnan Sasikiran are all out of the Indian Qualifier for the Meltwater
+                                    Champions Chess Tour after suffering surprise defeats to Arjun Erigaisi, Harsha Bharathakoti, Gukesh and Mitrabha Guha.
+                                    The highlight of Saturday’s quarterfinals is Adhiban-Praggnanandhaa, after both players came through matches that were
+                                    hit by technical issues. Adhiban played to the crowd by employing 1.b3, the topic of his much-hyped but still unreleased Chessable series.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fourthSection__container2">
+                        <div class="fourth__sectionHeader3">
+                            Schedule
+                        </div>
+                        <div class="fourthSection__innerContainer">
+                            <div class="fourthSection__innerContainer2">
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-1">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">live now</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">New In Chess Classic | Knockout Round 7.1</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-1">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">yesterday at 17:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">78th LOTTO Polish Championship Round 2.3</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-1">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">yesterday at 13:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">Banter Blitz with Lefong (182)</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-2">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">today at 21:30</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">Russian Team Championship Premier League Round 3</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-2">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">tomorrow at 13:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">De 1000 à 2400 elo après 30 ans! cours #13</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-2">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">tomorrow at 19:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">New In Chess Classic | Knockout Round 7.1</span>
+                                    </a>
+                                </div>
+                                <!-- end of start of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-2">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">tomorrow at 19:15</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri eventPriafter">Lubbes Lernstunde | Ungleichfarbige Läufer II</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-3">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">May 5, 2021 | 20:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri">Soirée Mouss avec Laurent Fressinet et Jules Moussard</span>
+                                    </a>
+                                </div>
+                                <!-- end of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-3">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">May 7, 2021 | 10:30</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri">Indian Qualifier Round 1.1</span>
+                                    </a>
+                                </div>
+                                <!-- end of start of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-3">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">May 22, 2021 | 14:00</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri">Gibraltar FIDE Women's Grand Prix Round 1</span>
+                                    </a>
+                                </div>
+                                <!-- end of start of event list -->
+                                <!-- start of event list -->
+                                <div class="thirdSection__eventsList color-3">
+                                    <a href="#" class="thirdSection__eventLink">
+                                        <span class="eventSec">
+                                            <span class="eventSec__inner">
+                                                <span class="event__live">3 hours ago</span>
+                                            </span>
+                                        </span>
+                                        <span class="eventPri">Geschwätzblitz mit Melanie und Nikolas Lubbe</span>
+                                    </a>
+                                </div>
+                                <!-- end of start of event list -->
+                            </div>
+                        </div>
+                        <button type="submit" class="btn w-100 fourthSection__btn">See all events</button>
+                        <!-- <div class="button__container">
+                            <a class="fourthSection__ui-button" href="#">
+                                See all events</a>
+                        </div> -->
+                    </div>
+                </div>
+                <img src="https://tpc.googlesyndication.com/simgad/4816841423334915035" border="0" width="301" height="601" alt=""
+                    class="img_ad">
+            </div>
+            
+        </div>
+    </section>
+    <!-- End of fourth section -->
+
+    <!-- Fifth Section -->
+    <section class="fifth__section" id="fifth__section">
+        <div class="fifth__sectionContainer">
+            <div class="fifth__sectionHeader">
+                <div class="fifthSection__headerText">
+                    <span>shows on chess24</span>
+                </div>
+                <div class="fifthSection__headerLink">
+                    <span><a href="#">See all</a></span>
+                </div>
+            </div>
+            
+            <div class="fifthSection__boxContent">
+                <!-- first box -->
+                <a href="#" class="event__item event__item1">
+                    <div class="fifthSection__box fifthSection__box1">
+                        <img src="https://cdn.chess24.com/JqBbVzJ6S8mJJgX-XwctWA/640x360/jpeg-thumb-mag-bot-seb.jpg" alt="">
+                    </div>
+                    <div class="fifthSection__boxDescription">
+                        <div class="fifthSection__descriptionTitle">
+                            IM Sebastian Mihajlov vs Magnus Carlsen Bot | Play Magnus App
+                        </div>
+                        <div class="fifthSection__descriptionTime">
+                            <span class="description-time-date">May 9</span>
+                            <span class="description-time-time">5:00 PM</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of first box -->
+            
+                <!-- second box -->
+                <a href="#" class="event__item event__item2">
+                    <div class="fifthSection__box fifthSection__box2">
+                        <img src="https://cdn.chess24.com/ilDt8YB_Q-OcF2wHy18TJg/640x360/lefong-ffl-thumbnail-2.jpg" alt="">
+                    </div>
+                    <div class="fifthSection__boxDescription">
+                        <div class="fifthSection__descriptionTitle">
+                            Banter Blitz with Lefong (183)
+                        </div>
+                        <div class="fifthSection__descriptionTime">
+                            <span class="description-time-date">May 9</span>
+                            <span class="description-time-time">7:00 PM</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of second box -->
+            
+                <!-- third box -->
+                <a href="#" class="event__item event__item3">
+                    <div class="fifthSection__box fifthSection__box3">
+                        <img src="https://cdn.chess24.com/8nBuJ8oYSYuqDYY21SMF7A/640x360/thumbnail-blind-min.jpg" alt="">
+                    </div>
+                    <div class="fifthSection__boxDescription">
+                        <div class="fifthSection__descriptionTitle">
+                            IM Sebastian Mihajlov vs Magnus Carlsen Bot | Play Magnus App
+                        </div>
+                        <div class="fifthSection__descriptionTime">
+                            <span class="description-time-date">May11</span>
+                            <span class="description-time-time">7:00 PM</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of third box -->
+            
+                <!-- fourth box -->
+                <a href="#" class="event__item event__item4">
+                    <div class="fifthSection__box fifthSection__box4">
+                        <img src="https://cdn.chess24.com/EEYV1QUiR1qAwIKl3urDRw/640x360/1-blindfold-min--1.jpg" alt="">
+                    </div>
+                    <div class="fifthSection__boxDescription">
+                        <div class="fifthSection__descriptionTitle">
+                            IM Sebastian Mihajlov vs Magnus Carlsen Bot | Play Magnus App
+                        </div>
+                        <div class="fifthSection__descriptionTime">
+                            <span class="description-time-date">May 12</span>
+                            <span class="description-time-time">9:00 PM</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of first box -->
+            </div>
+        </div>
+        
+    </section>
+    <!-- End of Fifth section -->
+
+    <!-- Sixth section -->
+    <section class="sixth__section" id="sixth__section">
+        <div class="sixth__sectionContainer">
+            <div class="sixthSection__boxContent">
+                <div class="sixthSection__boxInner1">
+                    <div class="sixth__sectionHeader">
+                        <div class="sixthSection__headerText">
+                            <span>latest news</span>
+                        </div>
+                        <div class="sixthSection__headerLink">
+                            <span><a href="#">See all</a></span>
+                        </div>
+                    </div>
+                    <div class="sixthSection__innerBoxes">
+                        <!-- first box -->
+                        <a href="#" class="sixthEvent__item event__item1">
+                            <div class="sixthSection__box fifthSection__box1">
+                                <img src="https://cdn.chess24.com/ycH0Mz7FTzSq8fK4qeM6rg/600x380/magnus-carlsen-rates-bobby-fischer.jpg">
+                            </div>
+                            <div class="event__itemNews">
+                                <div class="eventItem__newsTitle">
+                                    Magnus Carlsen ranks the World Chess Champions
+                                </div>
+                            </div>
+                            <div class="eventItem__newsBody">
+                                <p>
+                                    How does Magnus Carlsen rate his great predecessors as World Chess Champions on genius, entertainment,
+                                    influence and
+                                    sanity? We got to find out in a series of videos made for the New in Chess Classic, in which he assessed the
+                                    11th to the
+                                    16th World Champions, i.e. Bobby Fischer, Anatoly Karpov, Garry Kasparov, Vladimir Kramnik, Vishy Anand and
+                                    himself! He
+                                    also looked at arguably the two greatest female players of all time, Judit Polgar and Hou Yifan, and rated
+                                    the top
+                                    player in each category going back to the likes ofJose Capablanca and Mikhail Tal.
+                                </p>
+                            </div>
+                            <div class="eventItem__footer">
+                                <div class="eventItem__footerDate">5/7/2021</div>
+                                <div class="eventItem__footerComments">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                        <g fill="#36c">
+                                            <path d="M18 4h-1v7a2 2 0 0 1-2 2H4v1a2 2 0 0 0 2 2h10l4 4V6a2 2 0 0 0-2-2z"></path>
+                                            <path d="M14 0H2a2 2 0 0 0-2 2v14l4-4h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"></path>
+                                        </g>
+                                    </svg>&nbsp; 37
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end of first box -->
+                        
+                        <!-- second box -->
+                        <a href="#" class="sixthEvent__item event__item2">
+                            <div class="sixthSection__box fifthSection__box1">
+                                <img src="https://cdn.chess24.com/yvbechmsRSGU-Yx0_eV-ZA/600x380/kahoot-chess24-magnus-carlsen-sm.jpg">
+                            </div>
+                            <div class="event__itemNews">
+                                <div class="eventItem__newsTitle">
+                                    chess24 launches World of Chess on Kahoot! Academy
+                                </div>
+                            </div>
+                            <div class="eventItem__newsBody">
+                                <p>
+                                    If you’re at school or a parent you’ve probably heard of Kahoot!, a learning platform based around
+                                    interactive quizzes.
+                                    Hundreds of millions of players around the world engage regularly for fun and to pick up new skills, and one
+                                    of those
+                                    skills is now chess. chess24’s “World of Chess” page on the Kahoot! Academy features 15 “kahoots”,
+                                    interactive games
+                                    where you can test yourself or others on chess basics, history, trivia and much more.
+                                </p>
+                            </div>
+                            <div class="eventItem__footer">
+                                <div class="eventItem__footerDate">5/7/2021</div>
+                                <div class="eventItem__footerComments">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                        <g fill="#36c">
+                                            <path d="M18 4h-1v7a2 2 0 0 1-2 2H4v1a2 2 0 0 0 2 2h10l4 4V6a2 2 0 0 0-2-2z"></path>
+                                            <path d="M14 0H2a2 2 0 0 0-2 2v14l4-4h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"></path>
+                                        </g>
+                                    </svg>&nbsp; 2
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end of second box -->
+                        
+                        <!-- third box -->
+                        <a href="#" class="sixthEvent__item event__item3">
+                            <div class="sixthSection__box fifthSection__box1">
+                                <img src="https://cdn.chess24.com/QyUtgu9ET8idmVBu8tSZPQ/600x380/indian-qualifiers-teaser.jpeg">
+                            </div>
+                            <div class="event__itemNews">
+                                <div class="eventItem__newsTitle">
+                                    Adhiban top seed for Indian Champions Chess Tour Qualifier
+                                </div>
+                            </div>
+                            <div class="eventItem__newsBody">
+                                <p>
+                                    Adhiban tops a field of 16 Indian players who will compete for two spots in the Meltwater Champions Chess
+                                    Tour in a
+                                    qualifier taking place from Friday May 7 to Monday May 10. Praggnanandhaa, Nihal Sarin, Gukesh and Harika
+                                    Dronavalli are
+                                    among the other participants in the knockout event, with Tania Sachdev joining Srinath Narayanan for live
+                                    commentary on
+                                    all the action.
+                                </p>
+                            </div>
+                            <div class="eventItem__footer">
+                                <div class="eventItem__footerDate">5/7/2021</div>
+                                <div class="eventItem__footerComments">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                        <g fill="#36c">
+                                            <path d="M18 4h-1v7a2 2 0 0 1-2 2H4v1a2 2 0 0 0 2 2h10l4 4V6a2 2 0 0 0-2-2z"></path>
+                                            <path d="M14 0H2a2 2 0 0 0-2 2v14l4-4h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"></path>
+                                        </g>
+                                    </svg>&nbsp; 5
+                                </div>
+                            </div>
+                        </a>
+                        <!-- end of third box -->
+                    </div>
+                   
+                </div>
+                <!-- fourth box -->
+                <div class="sixthSection__boxInner2 ml-3">
+                    <div class="sixthSection__inner2Header bg-white">Analyze your games</div>
+                    <div class="sixthSection__inner2Content">
+                        <div class="sixthSection__inner2Image mb-4 p-3 bg-white">
+                            <img src="./img/chess-board.jpg" alt="">
+                            <button type="submit" class="btn w-75 sixthSection__btn">Analyze</button>
+                        </div>
+                        
+                        <!-- <div class="btn-overlay">
+                            <a class="sixthSection__btn-overlay" href="#">Analyze</a>
+                        </div>  -->
+                        <div id="sixth__sectionBanner">
+                            <a href="#">
+                                <img
+                                    src="https://s3-eu-west-1.amazonaws.com/de.cisha.live/_05RkzWsTv27sVQmO3Z-5A/original/world_champions_blunder--300x208.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of fourth box -->
+        </div>
+    </section>
+    <!-- End of Sixth section -->
+
+    <!-- seventh section -->
+    <section class="seventh__section" id="seventh__section">
+        <div class="seventh__sectionContainer">
+            <div class="seventh__sectionHeader">Playzone</div>
+            <div class="seventhSection__rowContainer">
+                <!-- first column -->
+                <div class="seventhSection__row1">
+                    <div class="seventhSection__rowHeader">
+                        Top Blitz players
+                    </div>
+                    <!-- <div class="seventhSection__rowItems"></div> -->
+                    <!-- first row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">1</div>
+                        <div class="player-avatar"><img src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Tom19571</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2905</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of first row -->
+                    <div class="border-line"></div>
+
+                    <!-- second row row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">2</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Bendzalo</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2923</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of second row -->
+                    <div class="border-line"></div>
+
+                    <!-- third row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">3</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">pouillyfume</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2807</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of third row -->
+                    <div class="border-line"></div>
+                    <!-- fourth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">4</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Pawnana</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2752</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fourth row -->
+                    <div class="border-line"></div>
+
+                    <!-- fifth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">5</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">DominicW</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2750</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fifth row -->
+                    <div class="border-line"></div>
+
+                    <!-- sixth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">6</div>
+                        <div class="player-avatar"><img
+                            src="https://cdn.chess24.com/NW-So9ihTruHKyZ_0w0iTA/35x35/kisspng-chess-piece-horse-knight-queen-chess-piece-5adc282de04ea9-17582973152437764591883.jpg">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Jup</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2706</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of sixth row -->
+                    <div class="border-line"></div>
+
+                    <!-- seventh row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">7</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">EmirAllergic</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2663</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of seventh row -->
+                    <div class="border-line"></div>
+
+                    <!-- eight row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">8</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">jotesbe</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2654</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of eight row -->
+                    <div class="border-line"></div>
+
+                    <!-- ninth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">9</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">amoq</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2653</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of ningth row -->
+                    <div class="border-line"></div>
+
+                    <!-- tenth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">10</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">charou</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2638</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of tenth row -->
+                    <!-- <div class="border-line"></div> -->
+                    <div class="go-to-leaderboard pl-4">
+                        <button type="submit" class="btn w-100 leaderboard__ui-button">Check out the leaderboards</button>
+                    </div>
+                </div>
+                <!-- end of first column -->
+
+                <!-- second column -->
+                <div class="seventhSection__row2">
+                    <div class="seventhSection__rowHeader">
+                        Top Bullet players
+                    </div>
+                    <!-- first row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">1</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">studo</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2320</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of first row -->
+                    <div class="border-line"></div>
+
+                    <!-- first row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">2</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Pguitee</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2567</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of first row -->
+                    <div class="border-line"></div>
+
+                    <!-- second row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">3</div>
+                        <div class="player-avatar"><img src="https://cdn.chess24.com/1VX_QeLnQr2i099BV_te5w/35x35/poland-hussars.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Pirani</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2563</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of second row -->
+                    <div class="border-line"></div>
+
+                    <!-- third row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">4</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Arlutz2</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2512</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of third row -->
+                    <div class="border-line"></div>
+
+                    <!-- fourth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">5</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">benchcharles</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2494</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fourth row -->
+                    <div class="border-line"></div>
+
+                    <!-- fifth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">6</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">yardbird11</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2422</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fifth row -->
+                    <div class="border-line"></div>
+
+                    <!-- sixth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">7</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">JakobS97</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2394</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of sixth row -->
+                    <div class="border-line"></div>
+
+                    <!-- seventh row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">8</div>
+                        <div class="player-avatar"><img src="https://cdn.chess24.com/7Wrma2Q4SbuWBDwtdaWwAw/35x35/images.jfif">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">morphy_tal</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2387</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of seventh row -->
+                    <div class="border-line"></div>
+
+                    <!-- eight row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">9</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Yebenko</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2355</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of eight row -->
+                    <div class="border-line"></div>
+
+                    <!-- ninth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">10</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Ansu</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2351</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of ninth  row -->
+                    <!-- <div class="border-line"></div> -->
+                </div>
+                <!-- end of second column -->
+
+                <!-- third column -->
+                <div class="seventhSection__row3">
+                    <div class="seventhSection__rowHeader">
+                        Top Classical players
+                    </div>
+                    <!-- first row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">1</div>
+                        <div class="player-avatar"><img src="https://cdn.chess24.com/vZqaidmqSMaqQtmE7mo1fw/35x35/2275639126.jpg">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Morabout</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2338</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of first row -->
+                    <div class="border-line"></div>
+
+                    <!-- second row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">2</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Haju.14</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2171</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of second row -->
+                    <div class="border-line"></div>
+
+                    <!-- third row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">3</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">PatrickWolf</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2165</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of third row -->
+                    <div class="border-line"></div>
+
+                    <!-- fourth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">4</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Yves.bonan</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2141</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fourth row -->
+                    <div class="border-line"></div>
+
+                    <!-- fifth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">5</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">lubomirpipkov</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2129</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of fifth row -->
+                    <div class="border-line"></div>
+
+                    <!-- sixth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">6</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">winnie</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2126</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of sixth row -->
+                    <div class="border-line"></div>
+
+                    <!-- seventh row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">7</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">HERO48</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2121</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of seventh row -->
+                    <div class="border-line"></div>
+
+                    <!-- eight row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">8</div>
+                        <div class="player-avatar"><img src="https://cdn.chess24.com/TA0vebOtTA66YDTe84CIug/35x35/prooof2.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">SerAldazMuruzabal</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2117</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of eight row -->
+                    <div class="border-line"></div>
+
+                    <!-- ninth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">9</div>
+                        <div class="player-avatar"><img
+                                src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/user/35x35_profile_default.png">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">patzer1957</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2109</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of ninth row -->
+                    <div class="border-line"></div>
+
+                    <!-- tenth row -->
+                    <div class="seventhSection__rowItems">
+                        <div class="position">10</div>
+                        <div class="player-avatar"><img src="https://cdn.chess24.com/ZRsULv1oTbK9S6gmQgsbDg/35x35/norderaue.jpg">
+                        </div>
+                        <div class="player-name"><a class="ofMiniProfile position-bottom" data-uuid="ed11gS_wS9GcvxLmy4miYw"
+                                href="/en/profile/tom19571">Norderaue</a> </div>
+                        <div class="title"></div>
+                        <div class="score">2109</div>
+                        <a class="btn-follow" href="/en/stream/player/tom19571">Follow</a>
+                    </div>
+                    <!-- end of tenth row -->
+                    <div class="go-to-leaderboard pr-4">
+                        <button type="submit" class="btn w-100 leaderboard__ui-button">Watch top games</button>
+                    </div>
+                </div>
+                <!-- end of third column -->
+            </div>
+        </div>
+    </section>
+    <!-- End of seventh section -->
+
+    <!-- Eight section -->
+    <section class="eight__section" id="eight__section">
+        <a href="#" class="eight__sectionLink">
+            <img src="https://tpc.googlesyndication.com/simgad/14358854155693010180" border="0" width="960" height="90" alt=""
+                class="img_ad2">
+        </a>
+    </section>
+    <!-- End of Eight section -->
+
+
+    <!-- ninth section -->
+    <section class="fifth__section" id="fifth__section">
+        <div class="fifth__sectionContainer">
+            <div class="fifth__sectionHeader">
+                <div class="fifthSection__headerText">
+                    <span class="text-capitalize" style="font-size: 1.5rem;">video series</span>
+                </div>
+                <div class="fifthSection__headerLink">
+                    <span><a href="#">See all</a></span>
+                </div>
+            </div>
+    
+            <div class="fifthSection__boxContent pl-4 pr-5">
+                <!-- first box -->
+                <a href="#" class="event__item event__item1" style="text-decoration: none;">
+                    <div class="fifthSection__box fifthSection__box1">
+                        <img src="https://cdn.chess24.com/wvYTbnqrQhW0RBneQds4NQ/original/intro-en-evc0437-00_00_01_16-still001.jpg">
+                    </div>
+
+                    <div class="ninthItem__description">
+                        <div class="description-text-pri">
+                            ► The Method in Chess
+                        </div>
+                        <div class="description-text-sec">GM Iossif Dorfman and Jan Gustafsson</div>
+                    </div>
+                    
+                </a>
+                <!-- end of first box -->
+    
+                <!-- second box -->
+                <a href="#" class="event__item event__item2">
+                    <div class="fifthSection__box fifthSection__box2">
+                        <img src="https://tpc.googlesyndication.com/simgad/7687863918248382958" border="0" width="300" height="250" alt=""
+                            class="img_ad">
+                    </div>
+                    
+                </a>
+                <!-- end of second box -->
+    
+                <!-- third box -->
+                <a href="#" class="event__item event__item3" style="text-decoration: none;">
+                    <div class="fifthSection__box fifthSection__box3">
+                        <img src="https://cdn.chess24.com/lHvToVysS1eETmWqOmUkDg/original/mark-dvoretsky-and-jan.png">
+                    </div>
+
+                    <div class="ninthItem__description">
+                        <div class="description-text-pri">
+                            ► Endgames with Dvoretsky
+                        </div>
+                        <div class="description-text-sec">IM Mark Dvoretsky</div>
+                    </div>
+                    
+                </a>
+                <!-- end of third box -->
+    
+                <!-- fourth box -->
+                <a href="#" class="event__item event__item4" style="text-decoration: none;">
+                    <div class="fifthSection__box fifthSection__box4">
+                        <img src="https://cdn.chess24.com/2FIC7lckTrWySm42ybXylg/original/series-thumbnail--0-00-42-07.jpg">
+                    </div>
+
+                    <div class="ninthItem__description">
+                        <div class="description-text-pri">
+                            ► Candidates 2021
+                        </div>
+                        <div class="description-text-sec">GM J. Gustafsson | P.H. Nielsen | L. Fressinet</div>
+                    </div>
+                    
+                </a>
+                <!-- end of first box -->
+            </div>
+        </div>
+    </section>
+    <!-- end of ninth section -->
+
+    <!-- Tenth section -->
+
+    <section class="tenth__section" id="tenth__section">
+        <div class="tenth__sectionContainer">
+            <div class="row">
+                <div class="col">
+                    <div class="tenth__sectionBox d-flex justify-content-between bg-white">
+                        <a href="#" class="opt-header-link ml-3">
+                            <div class="opt-header-title">World Online School <strong>CHESS TOURNAMENT</strong></div>
+                        </a>
+                        <div class="topSection__third mb-3 mr-3" style="padding-top: 20px;">
+                            <a href="#" class="topSection__thirdButton">Visit now</a>
+                        </div>
+                    </div>
+                    
+                    <!-- <a class="slide-cta-button ui-button opt-ui-button" href="https://events.chess24.com/school-tournament"
+                        target="_blank">Visit now</a> -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end of Tenth section -->
+
+    <!-- Eleventh section -->
+
+    <section class="eleventh__section" id="eleventh__section">
+        <div class="eleventh__sectionContainer">
+            <div class="eleventh__sectionHeader">
+                <div class="eleventhSection__headerText">
+                    <span>shows on chess24</span>
+                </div>
+                <div class="eleventhSection__headerLink">
+                    <a href="#">See all</a>
+                </div>
+            </div>
+
+            <div class="eleventh__sectionBoxes">
+                <!-- first box -->
+                <a class="tournament-item is-live" href="/en/play/tournaments/Lj1dWWB7TmeBKkJJcpErrA">
+                    <div class="tournament-title">
+                        <div class="title-pri">Blitz Tournament</div>
+                        <div class="title-sec">3+2</div>
+                    </div>
+                    <div class="tournament-status">
+                        <div class="status-pri">Round starts</div>
+                        <div class="status-sec" style="display: none;"></div>
+                    </div>
+                    <div class="tournament-foot">
+                        <div class="foot-pri">
+                            <dt class="date formatTimeAgo" data-timewidth="short" data-created="1620651600000">4 hours ago</dt>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- end of first box -->
+
+                <!-- second box -->
+                <a class="tournament-item is-live" href="/en/play/tournaments/Lj1dWWB7TmeBKkJJcpErrA">
+                    <div class="tournament-title">
+                        <div class="title-pri">Blitz Tournament</div>
+                        <div class="title-sec">3+0</div>
+                    </div>
+                    <div class="tournament-status">
+                        <div class="status-pri">Round starts</div>
+                        <div class="status-sec" style="display: none;"></div>
+                    </div>
+                    <div class="tournament-foot">
+                        <div class="foot-pri">
+                            <dt class="date formatTimeAgo" data-timewidth="short" data-created="1620651600000">3 hours ago</dt>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- end of second box -->
+
+                <!-- third box -->
+                <a class="tournament-item is-live" href="/en/play/tournaments/Lj1dWWB7TmeBKkJJcpErrA">
+                    <div class="tournament-title">
+                        <div class="title-pri">Blitz Tournament</div>
+                        <div class="title-sec">5+0</div>
+                    </div>
+                    <div class="tournament-status">
+                        <div class="status-pri">Round starts</div>
+                        <div class="status-sec" style="display: none;"></div>
+                    </div>
+                    <div class="tournament-foot">
+                        <div class="foot-pri">
+                            <dt class="date formatTimeAgo" data-timewidth="short" data-created="1620651600000">2 hours ago</dt>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- end of third box -->
+
+                <!-- fourth box -->
+                <a class="tournament-item-image" href="/en/play/tournaments/Lj1dWWB7TmeBKkJJcpErrA">
+                    <img src="https://tpc.googlesyndication.com/simgad/5092703791732535398" border="0" width="300" height="250" alt=""
+                        class="img_ad">
+                </a>
+                <!-- end of fourth box -->
+            </div>
+        </div>
+    </section>
+    <!-- end of Eleventh section -->
+
+    <!-- footer section -->
+
+    <footer class="pageFooter">
+        <div class="pageWrap">
+    
+            <!-- footer items -->
+            <div class="footerFlex">
+                <div>
+                    <h5>chess24</h5>
+                    <ul>
+                        <li><a href="/en/static/about">About us</a></li>
+                        <li><a href="/en/press">Press</a></li>
+                        <li><a href="/premium">Premium</a></li>
+                        <li><a href="/en/static/jobs">Jobs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Languages</h5>
+                    <ul class="langList">
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/de" data-lang="de">
+                                Deutsch </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/en" data-lang="en">
+                                English </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/es" data-lang="es">
+                                Español </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/fr" data-lang="fr">
+                                Français </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/it" data-lang="it">
+                                Italiano </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/no" data-lang="no">
+                                Norsk </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/pl" data-lang="pl">
+                                Polski </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/pt" data-lang="pt">
+                                Português </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/ru" data-lang="ru">
+                                Русский </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/tr" data-lang="tr">
+                                Türkçe </a>
+                        </li>
+                        <li>
+                            <a class="language-change-link" href="https://chess24.com/zh" data-lang="zh">
+                                中文 </a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <div>
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="/glossary">Chess glossary</a></li>
+                        <li class="linkSupport"><a href="https://support.chess24.com/hc/en-us" target="_new">FAQs</a></li>
+                        <li><a href="/en/static/advertise-with-us">Advertise with us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Subscribe</h5>
+                    <ul>
+                        <li>
+                            <a class="icons-social__item icons-social__item--youtube"
+                                href="http://www.youtube.com/channel/UCkTCNuQ2mGfW6-SpHpaze_g?sub_confirmation=1" target="_blank"
+                                title="YouTube">
+                                <img src="./img/youtube.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icons-social__item icons-social__item--twitch" href="https://www.twitch.tv/chess24"
+                                target="_blank" title="Twitch">
+                                <img src="./img/twitch2.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icons-social__item icons-social__item--rss" href="/en/read/news.rss" target="_blank"
+                                title="RSS">
+                                <img src="./img/rss.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Follow</h5>
+    
+                    <div class="icons-social">
+                        <a class="icons-social__item icons-social__item--twitter" href="https://twitter.com/chess24com"
+                            target="_blank" title="Twitter"><img data-ils="3" jsaction="rcuQ6b:trigger.M8vzZb;" class="CBvy7c" alt="" width="43" height="43"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XrVMXQYHU5mz-lXgNQ981S8OWplgH0wgnesxCJ5wvRkIlJKk&amp;usqp=CAU"></a>
+                        <a class="icons-social__item icons-social__item--facebook" href="https://www.facebook.com/c24live"
+                            target="_blank" title="Facebook"><img data-ils="3" jsaction="rcuQ6b:trigger.M8vzZb;" class="CBvy7c" alt="" width="43" height="43"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OQ7pNCGrMwZ1q5cJOmh-5e3r0Vt_0g9HzuEBgCs&amp;usqp=CAU"></a>
+                        <a class="icons-social__item icons-social__item--instagram"
+                            href="https://www.instagram.com/chess24_official/" target="_blank" title="Instagram"><img data-ils="3" jsaction="rcuQ6b:trigger.M8vzZb;" class="CBvy7c" alt="" width="43" height="43"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_yu8tU7L-Nq2UkJS87TbqUd2DOKYPhT6o0STegw&amp;usqp=CAU"></a>
+                    </div>
+                </div>
+                <div>
+                    <h5>chess24 apps</h5>
+                    <ul>
+                        <li>
+                            <a href="https://itunes.apple.com/app/id564777203" target="_blank">
+                                <img src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/logos/app-store-badge-en.svg"
+                                    border="0" alt="Download chess24 on the App Store" width="159px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=de.cisha.android.board&amp;referrer=utm_source%3Dchess24%26utm_campaign%3Dchess24-sidebar"
+                                target="_blank">
+                                <img src="https://assets.chess24.com/assets/8e528a9a7ebca9beed882c8d7e45b8a9/images/logos/google-play-badge-en.png"
+                                    border="0" alt="Get chess24 on Google play">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- END footer items -->
+    
+            <!-- copyright and declaimers -->
+            <div class="footerCopyright">
+                <div class="fRt">
+                    <ul class="fRt__ul">
+                        <li><a href="/en/static/terms-and-conditions">
+                                Terms of Website Use</a>
+                        </li>
+                        <li><a href="/en/static/cookie-policy">
+                                Cookie Policy</a>
+                        </li>
+                        <li><a href="/en/static/privacy-policy">
+                                Privacy Policy</a>
+                        </li>
+                        <li><a href="#" class="data-consent-link">
+                                Data Settings</a>
+                        </li>
+                        <li><a href="/en/static/disclaimer">
+                                Disclaimer</a>
+                        </li>
+                    </ul>
+                </div>
+                © chess24.com
+                | All rights reserved | Version: 2021-05-06.1
+            </div>
+    
+        </div>
+    </footer>
+
+    <!-- end of footer section -->
+
+    
+    
+
+    
+
+    
+    
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
